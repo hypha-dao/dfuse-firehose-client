@@ -5,10 +5,9 @@ import (
 
 	pbcodec "github.com/dfuse-io/dfuse-eosio/pb/dfuse/eosio/codec/v1"
 	"github.com/rs/zerolog"
-	"github.com/sebastianmontero/dfuse-firehose-client/dfclient"
+	"github.com/hypha-dao/dfuse-firehose-client/dfclient"
 	"github.com/sebastianmontero/slog-go/slog"
-	"github.com/streamingfast/bstream"
-	pbbstream "github.com/streamingfast/pbgo/dfuse/bstream/v1"
+	pbbstream "github.com/streamingfast/pbgo/sf/bstream/v1"
 )
 
 type blockStreamHandler struct {
